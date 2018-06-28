@@ -1,9 +1,11 @@
 # Ip-locale v1.0.3
 Locate the country with ip without using the network. 
 
+This package Find matches in a total of 187,356 IP bands
+
 The heaviest task took 0.01 ~ 0.05 seconds
 
-This package contains country ip data. size 22MB
+Contains 22MB of national IP data. However, if you only need a country code, you can reduce it to 8 MB.
 
 Consequently you want smaller capacity, you should use ip finder which uses network
 
@@ -14,16 +16,34 @@ Using npm:
     npm i ip-local --save
 ```
 
-In Node.js
+In Node.js:
 ```
     const ipLocal = require('ip-locale');    
-    const ipInfo = ipLocal('123.123.123.123');
+    const ipInfo1 = ipLocal('14.128.128.2');
+    const ipInfo2 = ipLocal('123.123.123.123');
+    
 ```
 
-Result
-```
+Result:
+
+`14.128.128.2`
+
+```js
+  { 
+      countryCode: 'KR',
+      currencyCode: 'KRW',
+      regionName: 'Seoul',
+      countryName: 'South Korea',
+      isoCode: 'KOR',
+      phoneCode: '82' 
+  }
+``` 
+
+`123.123.123.123`
+
+```js
     {
-        countryCode: '125.123.123.123',
+        countryCode: 'PH',
         currencyCode: 'PHP',
         regionName: 'Manila',
         countryName: 'Philippines',
