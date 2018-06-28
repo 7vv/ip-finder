@@ -1,0 +1,19 @@
+{
+  "name": "ip-local",
+  "version": "1.0.1",
+  "description": "Locate the country with ip without using the network. The heaviest task took 0.01 ~ 0.05 seconds",
+  "main": "index.js",
+  "dependencies": {    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip finder",
+    "ip local",
+    "ip info"
+  ],
+  "author": "7vv <7vv1270@gmail.com> (https://7vv.github.io)",
+  "license": "ISC"
+}
