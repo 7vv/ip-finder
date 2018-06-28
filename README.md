@@ -1,9 +1,11 @@
 # Ip-locale v1.0.3
 Locate the country with ip without using the network. 
 
+This package Find matches in a total of 180,000 IP bands
+
 The heaviest task took 0.01 ~ 0.05 seconds
 
-This package contains country ip data. size 22MB
+contains country ip data. size 22MB
 
 Consequently you want smaller capacity, you should use ip finder which uses network
 
