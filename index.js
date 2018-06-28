@@ -1,18 +1,15 @@
-if(!global._ipListMap) {    
-    global._ipListMap = require('./ipListMap');
-}
+if(global._ipListMap === undefined) global._ipListMap = require('./ipListMap');
 const pattern = 4;
 const MAX = 3;
 
 module.exports = info = myIp => {
     const ip = myIp.split('.');
     if (ip.length !== pattern) return null;
-
-    const myIpRange = _ipListMap[ip[0]];
     
+    const myIpRange = _ipListMap[ip[0]];
     if(!myIpRange) return null;
+    
     for (const _ip of myIpRange) {
-
         const start = _ip.s.split('.');
         const end = _ip.e.split('.');
 
