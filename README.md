@@ -14,14 +14,32 @@ Using npm:
     npm i ip-local --save
 ```
 
-In Node.js
+In Node.js:
 ```
     const ipLocal = require('ip-locale');    
-    const ipInfo = ipLocal('123.123.123.123');
+    const ipInfo1 = ipLocal('14.128.128.2');
+    const ipInfo2 = ipLocal('123.123.123.123');
+    
 ```
 
-Result
-```
+Result:
+
+`14.128.128.2`
+
+```js
+  { 
+      countryCode: 'KR',
+      currencyCode: 'KRW',
+      regionName: 'Seoul',
+      countryName: 'South Korea',
+      isoCode: 'KOR',
+      phoneCode: '82' 
+  }
+``` 
+
+`123.123.123.123`
+
+```js
     {
         countryCode: 'PH',
         currencyCode: 'PHP',
