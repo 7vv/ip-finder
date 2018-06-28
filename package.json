@@ -1,6 +1,6 @@
 {
-  "name": "ip-local",
-  "version": "1.0.6",
+  "name": "ip-locale",
+  "version": "1.0.0",
   "description": "Locate the country with ip without using the network. The heaviest task took 0.01 ~ 0.05 seconds",
   "main": "index.js",
   "dependencies": {    
@@ -11,7 +11,7 @@
   },
   "keywords": [
     "ip finder",
-    "ip local",
+    "ip locale",
     "ip info"
   ],
   "author": "7vv <7vv1270@gmail.com> (https://7vv.github.io)",

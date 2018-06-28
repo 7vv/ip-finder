@@ -1,4 +1,4 @@
-# Ip-loca v1.0.3
+# Ip-locale v1.0.3
 Locate the country with ip without using the network. 
 
 The heaviest task took 0.01 ~ 0.05 seconds
@@ -16,7 +16,7 @@ Using npm:
 
 In Node.js
 ```
-    const ipLocal = require('ip-local');    
+    const ipLocal = require('ip-locale');    
     const ipInfo = ipLocal('123.123.123.123');
 ```
 
@@ -31,7 +31,3 @@ Result
         phoneCode: '63' 
     }
 ```
-
-## Warning
-It is recommended that you read this package only once.
-
