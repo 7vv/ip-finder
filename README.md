@@ -23,7 +23,7 @@ In Node.js
 Result
 ```
     {
-        countryCode: '125.123.123.123',
+        countryCode: 'PH',
         currencyCode: 'PHP',
         regionName: 'Manila',
         countryName: 'Philippines',
