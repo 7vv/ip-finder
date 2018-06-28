@@ -6,9 +6,11 @@ const MAX = 3;
 
 module.exports = info = myIp => {
     const ip = myIp.split('.');
-    if (ip.length !== pattern) return 'Not ip pattern match';
+    if (ip.length !== pattern) return null;
 
     const myIpRange = _ipListMap[ip[0]];
+    
+    if(!myIpRange) return null;
     for (const _ip of myIpRange) {
 
         const start = _ip.s.split('.');
@@ -30,7 +32,7 @@ module.exports = info = myIp => {
 
         if (+ipInt >= +startInt && +ipInt <= +endInt) {
             return {
-                countryCode: _ip.e,
+                countryCode: _ip.c,
                 currencyCode: _ip.cy,
                 regionName: _ip.ca,
                 countryName: _ip.cu,

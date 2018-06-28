@@ -20,6 +20,18 @@ In Node.js
     const ipInfo = ipLocal('123.123.123.123');
 ```
 
+Result
+```
+    {
+        countryCode: '125.123.123.123',
+        currencyCode: 'PHP',
+        regionName: 'Manila',
+        countryName: 'Philippines',
+        isoCode: 'PHL',
+        phoneCode: '63' 
+    }
+```
+
 ## Warning
 It is recommended that you read this package only once.
 
