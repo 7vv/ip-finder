@@ -1,14 +1,14 @@
-# Ip-local v 1.0.2
+# Ip-loca v1.0.3
 Locate the country with ip without using the network. 
 The heaviest task took 0.01 ~ 0.05 seconds
 This package contains country ip data. size 22MB
 Consequently you want smaller capacity, you should use ip finder which uses network
 
-# Install
+## Install
 Using npm:
 
 ```shell
-    npm i ip-finder --save
+    npm i ip-local --save
 ```
 
 In Node.js
@@ -17,6 +17,6 @@ In Node.js
     const ipInfo = ipLocal('123.123.123.123');
 ```
 
-# Warning
+## Warning
 It is recommended that you read this package only once.
 
