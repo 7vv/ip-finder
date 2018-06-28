@@ -5,7 +5,7 @@ This package Find matches in a total of 187,356 IP bands
 
 The heaviest task took 0.01 ~ 0.05 seconds
 
-Contains 22MB of national IP data. However, if you only need a country code, you can reduce it to 8 MB.
+Contains 22MB of national IP data. However, if you only have the country code, you can reduce it to 8 MB.
 
 Consequently you want smaller capacity, you should use ip finder which uses network
 
