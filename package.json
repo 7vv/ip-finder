@@ -1,6 +1,6 @@
 {
   "name": "ip-local",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Locate the country with ip without using the network. The heaviest task took 0.01 ~ 0.05 seconds",
   "main": "index.js",
   "dependencies": {    
