@@ -10,4 +10,4 @@ console.log(ipInfo('42.128.3.2'));
 console.log(ipInfo('123.1.126.2'));
 console.log(ipInfo('1.128.3.2'));
 console.log(ipInfo('25.4.128.2'));
-console.log(ipInfo('55.128.5.2'));
+console.log(ipInfo('54.237.150.108'));
