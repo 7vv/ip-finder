@@ -13,14 +13,14 @@ Consequently you want smaller capacity, you should use ip finder which uses netw
 Using npm:
 
 ```shell
-    npm i ip-local --save
+    npm i ip-locale --save
 ```
 
 In Node.js:
 ```
-    const ipLocal = require('ip-locale');    
-    const ipInfo1 = ipLocal('14.128.128.2');
-    const ipInfo2 = ipLocal('123.123.123.123');
+    const ipLocale = require('ip-locale');    
+    const ipInfo1 = ipLocale('14.128.128.2');
+    const ipInfo2 = ipLocale('123.123.123.123');
     
 ```
 
