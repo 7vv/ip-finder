@@ -1,9 +1,12 @@
 {
   "name": "ip-locale",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "Locate the country with ip without using the network. The heaviest task took 0.01 ~ 0.05 seconds",
   "main": "index.js",
-  "repository": "7vv/ip-locale",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/7vv/ip-locale"
+  },
   "dependencies": {    
   },
   "devDependencies": {},
@@ -18,6 +21,13 @@
     "locale",
     "ip local"
   ],
+  "bugs": {
+    "url": "http://github.com/7vv/ip-locale/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  }],
   "author": "7vv <7vv1270@gmail.com> (https://7vv.github.io)",
   "license": "ISC"
 }
