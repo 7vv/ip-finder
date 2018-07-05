@@ -1,8 +1,9 @@
 {
   "name": "ip-locale",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Locate the country with ip without using the network. The heaviest task took 0.01 ~ 0.05 seconds",
   "main": "index.js",
+  "repository": "7vv/ip-locale",
   "dependencies": {    
   },
   "devDependencies": {},
