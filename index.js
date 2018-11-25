@@ -1,4 +1,4 @@
-if(global._ipListMap === undefined) global._ipListMap = require('./ipListMap');
+const _ipListMap = require('./ipListMap');
 const pattern = 4;
 const MAX = 3;
 
